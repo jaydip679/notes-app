@@ -1,16 +1,63 @@
-# React + Vite
+# 🧠 Smart Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Notes Application built using **React** and **Tailwind CSS**.
+It allows users to create, edit, delete, search, and pin notes with a clean and intuitive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ✍️ Add, edit, and delete notes
+* 📌 Pin / unpin important notes
+* 🔍 Search notes instantly
+* 🔐 Simple login system (localStorage-based)
+* 🎨 Clean and responsive UI using Tailwind CSS
+* ⚡ Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React, Vite
+* **Styling:** Tailwind CSS
+* **State Management:** Context API
+* **Icons:** Lucide React
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+
+![Login Page](https://github.com/user-attachments/assets/923d4332-6adf-4f47-851a-f353f6b7eb87)
+
+### 🏠 Home Page
+
+![Home Page](https://github.com/user-attachments/assets/14842562-40a0-4e01-8f81-9f56988a61fd)
+
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+├── context/
+├── pages/
+├── utils/
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## 💡 Key Concepts Used
+
+* React Hooks (`useState`, `useEffect`, `useContext`)
+* Global State Management using Context API
+* Controlled Forms
+* Conditional Rendering
+* Component-based Architecture
+
+---
